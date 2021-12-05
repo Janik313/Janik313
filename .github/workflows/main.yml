@@ -25,7 +25,6 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_trim: yes
           plugin_repositories: yes
-          plugin_repositories_featured: jmir1/aniyomi, jmir1/osm
           config_timezone: Europe/Berlin
           plugin_achievements: yes
           plugin_achievements_display: detailed
@@ -43,7 +42,7 @@ jobs:
           plugin_anilist_medias: anime, manga
           plugin_anilist_sections: watching, reading
           plugin_anilist_shuffle: yes
-          plugin_anilist_user: jmir
+          plugin_anilist_user: janik313
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_people: yes
@@ -63,10 +62,3 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_lines: yes
           plugin_notable: yes
-          plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          plugin_wakatime_days: 7
-          plugin_wakatime_sections: time, projects, projects-graphs
-          plugin_wakatime_limit: 4
-          plugin_wakatime_url: https://anilist.co
-          plugin_wakatime_user: janik313
